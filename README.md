@@ -1,8 +1,8 @@
-# Config
+## Config
 
 Edit main.sh, change while_ip to the proxy_pool_console program's ip
 
-# Run with docker
+## Run with docker
 
 build a image
 ```sh
@@ -46,7 +46,10 @@ container name:
 proxy_service
 ```
 
-listening port: 7890
+listening port:
+```sh
+7890
+```
 
 the proxy pragram used:
 ```sh
