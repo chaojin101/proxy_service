@@ -62,6 +62,13 @@ r = requests.get('https://httpbin.org/ip', proxies={'https': '55.55.55.55:7890'}
 print(r.json())
 ```
 
+output:
+
+```
+{'origin': '21.17.40.251'}
+{'origin': '55.55.55.55'}
+```
+
 ## Description
 
 image tag:
