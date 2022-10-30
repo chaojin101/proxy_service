@@ -40,11 +40,11 @@ docker run --name proxy_service -p 7890:7890 -d proxy_service:1.0
 
 ## Usage
 
-assume public ip is 55.55.55.55
+assume proxy server's public ip is 55.55.55.55
 
-listening port is 7890
+listening port is 7890 (default)
 
-white ip is 0.0.0.0
+white ip is 0.0.0.0 (default)
 
 using python program to use this proxy service
 
